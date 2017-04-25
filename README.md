@@ -2,7 +2,7 @@
 VSH2B3U hópverkefni 3. önn
 
 # Um hvað er vefurinn?
-* Vefurinn mun fjalla dark souls og tölvuleikja framleiðandann FromSoftware. Vefurinn mun verða gerður í þeim tilgangi að upplýsa
+* Vefurinn mun fjalla dark souls og tölvuleikja framleiðandann FromSoftware. Vefurinn mun verða gerður í þeim tilgangi að geta upplýst notnedur vefsins um tölvuleikja seríuna darksouls sem skipist í þrjá leiki, Dark Souls I, Dark Souls II og Dark Souls III.
 * Vefurinn á líka að auglýsa og vekja athygli á FromSoftware, þeira sögu og hverning Dark Souls community hefur staðið sig hingað til.
 # Lýsingar um uppsetningu vefs.
 * 
