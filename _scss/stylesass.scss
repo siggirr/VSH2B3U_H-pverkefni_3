@@ -21,13 +21,18 @@ h1{
 	text-align: center;
 }
 
+nav a:hover{
+    background-color: #E18A07
+}
+
+
 /* DROP DOWN MENU HOVER */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1b1b1b;
+    background-color: #111;
 }
 
 li {
@@ -43,7 +48,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #db8606;
 }
 
 li.dropdown {
@@ -53,21 +58,21 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #111;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #db8606}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -93,7 +98,10 @@ li.dropdown {
 }
 
 .flexbot a{
-    color:crimson;
+    color: #FFF;
+}
+a:hover{
+    background-color: red;
 }
 
 
@@ -123,7 +131,7 @@ li.dropdown {
 
     border: 2px solid red;
     padding: 1em;
-    border: 2px solid #E18A06;
+    border: 2px solid #db8606;
     background-color: #111;
 }
 .parallaxtwo { 
