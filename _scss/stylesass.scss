@@ -8,16 +8,13 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.2; 
-	background-color: black;
+	background-color: #111;
 	color: white;
 	font-family: monospace,sans-serif,serif;
 	font-size: 18px;
 }
 p{
     padding: 1em;
-}
-article h2, content p{
-    text-align: center;
 }
 
 h1{
@@ -30,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #1b1b1b;
 }
 
 li {
@@ -124,8 +121,8 @@ li.dropdown {
 }
 .borderbox {
     padding: 1em;
-    border: 2px solid #E18A07;
-    background-color: #fff;
+    border: 2px solid #E18A06;
+    background-color: #111;
 }
 
 .parallaxtwo { 
@@ -158,15 +155,16 @@ li.dropdown {
 
 .mainContent{
     width: 100%;
-}
-.borderbox {
-    border: 2px solid #408e2f;
-    background-color: black;
+
 }
 
 .Hugleft {
     text-align: left;
 }
+.Hugcenter{
+    text-align: center;
+}
+
 
 
 
