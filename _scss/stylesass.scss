@@ -90,11 +90,18 @@ li.dropdown {
     
 }
 
-.gifs{
-    display: inline-block;
-    white-space: nowrap;
+/* GIFS */
 
+.gifs{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    white-space: nowrap;
 }
+
+
+
+
 
 /* FOOTER */
 
@@ -116,6 +123,9 @@ a:hover{
     background-color: red;
 }
 
+.resize{
+    width:540px; /* you can use % */
+}
 
 /* PARALLAX */
 
