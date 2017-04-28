@@ -71,6 +71,30 @@ li.dropdown {
     display: block;
 }
 
+.topMenu{
+    text-align: center;
+    
+}
+
+
+/* FOOTER */
+
+.flexbot{
+    display: flex;
+    flex-flow: row;
+    
+    justify-content: center;
+    justify-content: space-around;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexbot a{
+    color:crimson;
+}
+
+
 /* PARALLAX */
 
 .parallax { 
@@ -87,6 +111,7 @@ li.dropdown {
     background-size: cover;
 }
 
+
 .mainContent{
     width: 100%;
     
@@ -95,6 +120,20 @@ li.dropdown {
     border: 2px solid #408e2f;
     background-color: #fff;
 }
+.parallaxtwo { 
+    /* The image used */
+    background-image: url("../img/ds3.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .Hugleft {
     text-align: left;
