@@ -120,11 +120,12 @@ li.dropdown {
     
 }
 .borderbox {
+
+    border: 2px solid red;
     padding: 1em;
     border: 2px solid #E18A06;
     background-color: #111;
 }
-
 .parallaxtwo { 
     /* The image used */
     background-image: url("../img/ds.jpg");
@@ -155,9 +156,7 @@ li.dropdown {
 
 .mainContent{
     width: 100%;
-
 }
-
 .Hugleft {
     text-align: left;
 }
