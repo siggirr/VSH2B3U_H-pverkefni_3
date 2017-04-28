@@ -99,29 +99,6 @@ li.dropdown {
 
 .parallax { 
     /* The image used */
-    background-image: url("../img/ds.jpg");
-
-    /* Set a specific height */
-    height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.mainContent{
-    width: 100%;
-    
-}
-.borderbox {
-    border: 2px solid #408e2f;
-    background-color: #fff;
-}
-.parallaxtwo { 
-    /* The image used */
     background-image: url("../img/ds3.jpg");
 
     /* Set a specific height */
@@ -135,12 +112,52 @@ li.dropdown {
 }
 
 
+
+
+.parallaxtwo { 
+    /* The image used */
+    background-image: url("../img/ds.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxthree { 
+    /* The image used */
+    background-image: url("../img/dswolf.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainContent{
+    width: 100%;
+}
+.borderbox {
+    border: 2px solid #408e2f;
+    background-color: black;
+}
+
 .Hugleft {
     text-align: left;
 }
 article h2, content p{
     text-align: center;
 }
+
+
 
 
 /* MOBILE */
@@ -160,5 +177,4 @@ article h2, content p{
 
 /* HOLY GRAIL */
 @media screen and (min-width: 60em){
-
 }
