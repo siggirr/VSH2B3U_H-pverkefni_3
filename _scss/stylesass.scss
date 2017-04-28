@@ -12,7 +12,12 @@ body{
 	color: white;
 	font-family: monospace,sans-serif,serif;
 	font-size: 18px;
-
+}
+p{
+    padding: 1em;
+}
+article h2, content p{
+    text-align: center;
 }
 
 h1{
@@ -117,7 +122,7 @@ li.dropdown {
     
 }
 .borderbox {
-    border: 2px solid #408e2f;
+    border: 2px solid #E18A07;
     background-color: #fff;
 }
 .parallaxtwo { 
@@ -138,10 +143,6 @@ li.dropdown {
 .Hugleft {
     text-align: left;
 }
-article h2, content p{
-    text-align: center;
-}
-
 
 /* MOBILE */
 @media screen and (min-width: 30em){
