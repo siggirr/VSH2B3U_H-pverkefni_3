@@ -78,6 +78,11 @@ li.dropdown {
     
 }
 
+.gifs{
+    display: inline-block;
+    white-space: nowrap;
+
+}
 
 /* FOOTER */
 
@@ -111,6 +116,13 @@ li.dropdown {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.resize{
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
 }
 
 
