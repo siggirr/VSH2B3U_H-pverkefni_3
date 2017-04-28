@@ -123,7 +123,12 @@ li.dropdown {
     
 }
 .borderbox {
+
     border: 2px solid red;
+
+    padding: 1em;
+    border: 2px solid #E18A07;
+
     background-color: #fff;
 }
 
@@ -157,10 +162,6 @@ li.dropdown {
 
 .mainContent{
     width: 100%;
-}
-.borderbox {
-    border: 2px solid #408e2f;
-    background-color: black;
 }
 
 .Hugleft {
