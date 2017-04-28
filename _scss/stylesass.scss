@@ -21,6 +21,13 @@ h1{
 	text-align: center;
 }
 
+h2, h3{
+    padding: 1em;
+}
+
+article h2, content p{
+    text-align: center;
+}
 nav a:hover{
     background-color: #E18A07
 }
