@@ -129,7 +129,6 @@ li.dropdown {
 .flexbot{
     display: flex;
     flex-flow: row;
-    
     justify-content: center;
     justify-content: space-around;
     max-width: 600px;
@@ -139,6 +138,7 @@ li.dropdown {
 
 .flexbot a{
     color: #FFF;
+    text-decoration: none;
 }
 a:hover{
     background-color: red;
