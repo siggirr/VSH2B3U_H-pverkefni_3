@@ -38,24 +38,25 @@
 		</div>
 
 		<h2>DARK SOULS 1 MAP</h2>
+		
+		<img id="myImg" src="img/DarkSoulsFullMap.png" alt="DarkSoulsImap" class="mapSize">
 
-		<div class="centerdiv"><img id="myImg" src="img/DarkSoulsFullMap.png" alt="DarkSouls1map" class="mapSize"></div>
+		<div class="mainContent">
+			<h2 class="borderbox">
+			Dark Souls have areas that are pretty much entirely cut-off from the rest of the game, I think Dark Souls is still a little bit more connected and coherent. But it's a close call.
+			<br>
+			</h2>
+		</div>
 
 
 		<!-- The Modal -->
 		<div id="myModal" class="modal">
 		  <span class="close">&times;</span>
-		  <img class="modal-content" id="img01" src="https://www.w3schools.com/howto/img_fjords.jpg">
+		  <img class="modal-content" id="img01" src="img/DarkSoulsFullMap.png">
 		  <div id="caption"></div>
 		</div>
 
-	<div class="mainContent">
-			<h2 class="borderbox">
-			Dark Souls have areas that are pretty much entirely cut-off from the rest of the game, I think Dark Souls is still a little bit more connected and coherent. But it's a close call.
-			<br>
-			</h2>
-	</div>
-
+		
 		<div class="mainContent">
 			<h2 class="borderbox">Ovarall map of Dark Souls II game world
 			<br>
@@ -63,7 +64,15 @@
 			</h2>
 		</div>
 
-		<img id="myImg" src="img/DarkSouls2FullMap.jpg" alt="DarkSouls1map" class="mapSize">
+
+		<img id="myImg2" src="img/DarkSouls2FullMap.jpg" alt="DarkSoulsIImap" class="mapSize">
+
+		<!-- The Modal -->
+		<div id="myModal2" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img02" src="img/DarkSouls2FullMap.jpg">
+		  <div id="caption"></div>
+		</div>
 
 		<div class="mainContent">
 			<h2 class="borderbox">Ovarall map of Dark Souls III game world
@@ -72,7 +81,14 @@
 			</h2>
 		</div>
 
-		<img id="myImg" src="img/DarkSouls3FullMap.jpg" alt="DarkSouls1map" class="mapSize">
+		<img id="myImg3" src="img/DarkSouls3FullMap.jpg" alt="DarkSoulsIIImap" class="mapSize">
+
+		<!-- The Modal -->
+		<div id="myModal3" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img03" src="img/DarkSouls3FullMap.jpg">
+		  <div id="caption"></div>
+		</div>
 
 		<div class="mainContent">
 			<h1 class="borderbox">
@@ -126,6 +142,49 @@
 	span.onclick = function() { 
 	    modal.style.display = "none";
 	}
+
+	// Get the modal
+	var modal = document.getElementById('myModal2');
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById('myImg2');
+	var modalImg = document.getElementById("img02");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
+	    captionText.innerHTML = this.alt;
+	}
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[1];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() { 
+	    modal.style.display = "none";
+	}
+
+	// Get the modal
+	var modal = document.getElementById('myModal3');
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById('myImg3');
+	var modalImg = document.getElementById("img03");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
+	    captionText.innerHTML = this.alt;
+	}
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[2];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() { 
+	    modal.style.display = "none";
+	}
+
 	</script> <!-- scripta þurftið að vera inní body til þess að virka -->
 </body>
 </html>
