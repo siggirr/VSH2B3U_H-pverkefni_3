@@ -333,6 +333,7 @@ a:hover{
         width: 100%;
         height: auto;
     }
+
 }
 
 /* SPJALD */
@@ -351,6 +352,15 @@ a:hover{
         float: right;
     }
 
+    .midjuset{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .picsize{
+        width:250px;
+        height:250px;
+    }
 
     .parallax { 
     /* The image used */
@@ -364,7 +374,7 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    }
 
 .parallaxtwo { 
     /* The image used */
@@ -400,5 +410,7 @@ a:hover{
     margin-right: auto;
     height:auto;
 }
+
+
 
 }
