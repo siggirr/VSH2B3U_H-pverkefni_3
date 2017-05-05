@@ -155,7 +155,7 @@ a:hover{
     background-image: url("../img/ds3.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -189,7 +189,7 @@ a:hover{
     background-image: url("../img/ds.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -203,7 +203,7 @@ a:hover{
     background-image: url("../img/dswolf.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -313,7 +313,9 @@ a:hover{
     font-size: 75px;
 }
 
-
+.flexbot{
+    padding-bottom: 10px;
+}
 
 
 /* MOBILE */
@@ -336,4 +338,61 @@ a:hover{
 
 /* HOLY GRAIL */
 @media screen and (min-width: 60em){
+
+    .searchbox{
+        padding-top: 5px;
+        padding-right: 10px;
+        float: right;
+    }
+
+
+    .parallax { 
+    /* The image used */
+    background-image: url("../img/ds3.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxtwo { 
+    /* The image used */
+    background-image: url("../img/ds.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxthree { 
+    /* The image used */
+    background-image: url("../img/dswolf.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.resize{
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+}
+
 }
