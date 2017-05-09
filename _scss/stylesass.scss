@@ -58,7 +58,7 @@ ul {
 }
 
 li {
-    float: left;
+    
 }
 
 li a, .dropbtn {
@@ -319,6 +319,33 @@ a:hover{
     padding-bottom: 10px;
 }
 
+/* Ads */
+
+.tengill{
+    margin: 0;
+    padding: 0;
+}
+
+.verticalauglysing{
+    position: fixed;
+    background: url(../img/maxresdefault2.jpg) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    top: 100px;
+    max-width: 150px;
+    max-height: 400px;
+    left: 10px;
+    bottom: 50px;
+    border: groove 2px #db8606;
+    overflow: hidden;
+    padding: 2em;
+}
+
+.tossing{
+    font-size: 16px;
+    display: inline-block;
+}
+
 
 /* MOBILE */
 @media screen and (min-width: 30em){
@@ -334,12 +361,50 @@ a:hover{
         height: auto;
     }
 
+    .resize{
+        width: 100%;
+        height: auto;
+    }
+
+    div{
+        width: 100%;
+        height: auto;
+    }
+
+    .searchbox label{
+        margin: 2em;
+        float: right;
+    }
+    
+    .gifs{
+        -webkit-flex-direction: column;
+       flex-direction: column;
+       -webkit-justify-content: flex-start;
+       justify-content: flex-start;
+    }
+
 }
 
 /* SPJALD */
 @media screen and (min-width: 48em){
 	.parallax {
         background-attachment: scroll;
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
+    .modal-content {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .resize{
+        width: 100%;
+        height: auto;
     }
 }
 
